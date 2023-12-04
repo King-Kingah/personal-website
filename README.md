@@ -17,7 +17,7 @@ Welcome to the repository for my personal website! This website is built with a 
 
 ## Acknowledgements
 
-A special thanks to **DevChapter**, the creator of the initial template used as the foundation for this website. Their work laid the groundwork for the design and structure, and I'm grateful for their contribution.
+A special thanks to **[DevChapter](https://github.com/devchapter/Responsive-Personal-Portfolio)**, the creator of the initial template used as the foundation for this website. Their work laid the groundwork for the design and structure, and I'm grateful for their contribution.
 
 ## Getting Started
 
