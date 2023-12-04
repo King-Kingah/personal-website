@@ -208,6 +208,19 @@ document.addEventListener("DOMContentLoaded", function (event) {
             el.classList.remove('active')
         })
     })
+
+    // Vistor Counter
+    function updateVisitorCount() {
+        var countElement = document.getElementById('visitorCount');
+        var currentCount = localStorage.getItem('visitorCount') || 0;
+        currentCount = parseInt(currentCount) + 1;
+        localStorage.setItem('visitorCount', currentCount);
+        countElement.textContent = currentCount;
+    }
+
+    // Call the function to update visitor count when the page is loaded
+    updateVisitorCount();
+    
     // Copyright
     var currentYear = new Date().getFullYear();
     var copyrightText = document.querySelector(".footer .copyright .year").innerHTML
